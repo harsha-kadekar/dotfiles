@@ -1,11 +1,17 @@
 # dotfiles
 
 These are the dotfiles for my tools. I use following tools - 
+- [Zellij](https://zellij.dev) - Its a terminal multiplexer with batteries. It allows to perform multiple activities in a single terminal.
 - [TMUX](https://github.com/tmux/tmux/wiki) - Its a terminal multiplexer. It allows to perform multiple activities in a single terminal.
 - [Alacritty](https://github.com/alacritty/alacritty) - Its a cross platform terminal emulator. So I can have the same terminal in MAC as well as Linux. 
+- [Ghostty](https://ghostty.org) - Its a cross platform terminal emulator. This also comes with lots of feature as well as it is more visually pleasing.
 - [NeoVim](https://neovim.io) - This will be my go to text editor. As of now, I am still learning nvim. 
 - [OhMyZsh](https://ohmyz.sh) - My default shell is zsh and ohmyzsh comes with lot of functions and added features which makes shell fun.
 
+
+## Zellij
+
+The zellij has many things by default, so I do not need to customize much in it. In this repository, the zellij configuration file is `zellij_config.kdl` file. I setup session serialization as true to resurrect old sessions. It will go to location `$HOME/.config/zellij/config.kdl`. It does not need any plugins.
 
 ## TMUX
 
@@ -14,6 +20,11 @@ The tmux configuration is stored in `tmux.conf` file in this repository. It will
  - To set common settings of Tmux, I use [TMUX Sensible](https://github.com/tmux-plugins/tmux-sensible)
  - To know the battery power of the laptop, I use [TMUX battery](https://github.com/tmux-plugins/tmux-battery)
  - To know the ram and cpu usage of the laptop, I use [TMUX CPU](https://github.com/tmux-plugins/tmux-cpu)
+
+## Ghostty
+
+The configuration file of ghostty terminal is found in this repository as `ghostty_config`. It will go to `$HOME/.config/ghostty/config` location. 
+I am currently using [Jetbrains Mono font](https://github.com/JetBrains/JetBrainsMono). This may need to be manually installed. 
 
 ## Alacritty
 
